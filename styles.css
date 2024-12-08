@@ -196,6 +196,7 @@ body {
 .back-button {
   display: flex;
   justify-content: center;
+  align-items: center;
   min-width: 8rem;
   min-height: 3rem;
   font-size: 2rem;
@@ -215,12 +216,13 @@ body {
   z-index: 1;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .pokemon-details {
     width: 95%;
     height: 95%;
     max-height: 95%;
     max-width: 95%;
+    overflow: hidden;
   }
   .body {
     padding-top: 2rem;
