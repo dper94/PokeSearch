@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PokeSearch</title>
+  </head>
+  <body>
+    <div class="body-cover"></div>
+    <h1 class="main-heading">PokeSearch</h1>
+    <div class="pokemon-details">
+      <div class="back-button-container">
+        <button class="back-button">←</button>
+      </div>
+      <p id="pokemon-id"></p>
+      <div class="pokemon-name-types-and-number-container">
+        <div class="pokemon-name-and-types-container">
+          <h2 id="pokemon-name"></h2>
+          <div id="types"></div>
+        </div>
+      </div>
+      <img src="" alt="sprite" id="pokemon-sprite" />
+      <div class="pokemon-stats-container">
+        <h2 class="about-pokemon">About</h2>
+        <p id="weight"></p>
+        <p id="height"></p>
+        <h2 class="base-stats">Base Stats</h2>
+        <p id="hp"></p>
+        <p id="attack"></p>
+        <p id="defense"></p>
+        <p id="special-attack"></p>
+        <p id="special-defense"></p>
+        <p id="speed"></p>
+      </div>
+    </div>
+    <div class="user-input-container">
+      <input type="text" id="search-input" required />
+      <button id="search-button">Search</button>
+    </div>
+    <div class="pokemon-cards-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
