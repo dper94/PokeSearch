@@ -198,7 +198,6 @@ body {
 .back-button {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-width: 8rem;
   min-height: 3rem;
   font-size: 2rem;
