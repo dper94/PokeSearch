@@ -117,6 +117,11 @@ body {
   font-size: 1.8rem;
 }
 
+.pokemon-number {
+  color: #fff;
+  font-size: 2rem;
+}
+
 .pokemon-name {
   font-size: 2rem;
   color: #fff;

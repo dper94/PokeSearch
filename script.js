@@ -131,6 +131,7 @@ const displayPokemonData = (pokemonData) => {
         pokemon.id
       }" style="background-color: ${cardBackgroundColor}">
         <div class="pokemon-name-and-types-container">
+        <p class="pokemon-number">#${pokemon.id}</p>
           <h2 class="pokemon-name">${pokemon.name.toUpperCase()}</h2>
           ${pokemonTypes}
         </div>
